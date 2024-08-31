@@ -9,7 +9,7 @@ with open('kmeans_model.pkl', 'rb') as file:
     kmeans_model = pickle.load(file)
 
 # Title of the web app
-st.title('Iris Clustering hi78 Prediction App')
+st.title('Iris Clustering Prediction App')
 
 # Instructions
 st.write("""
